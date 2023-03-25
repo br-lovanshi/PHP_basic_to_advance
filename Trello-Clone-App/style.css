@@ -1,0 +1,166 @@
+@font-face{font-family:jaf-facitweb;src:url(https://use.typekit.net/af/7f9f98/0000000000000000000132a8/27/l?subset_id=1&fvd=n3&v=3) format("woff2"),url(https://use.typekit.net/af/7f9f98/0000000000000000000132a8/27/d?subset_id=1&fvd=n3&v=3) format("woff"),url(https://use.typekit.net/af/7f9f98/0000000000000000000132a8/27/a?subset_id=1&fvd=n3&v=3) format("opentype");font-weight:300;font-style:normal;}@font-face{font-family:jaf-facitweb;src:url(https://use.typekit.net/af/ef74fe/0000000000000000000132a9/27/l?subset_id=1&fvd=i3&v=3) format("woff2"),url(https://use.typekit.net/af/ef74fe/0000000000000000000132a9/27/d?subset_id=1&fvd=i3&v=3) format("woff"),url(https://use.typekit.net/af/ef74fe/0000000000000000000132a9/27/a?subset_id=1&fvd=i3&v=3) format("opentype");font-weight:300;font-style:italic;}@font-face{font-family:jaf-facitweb;src:url(https://use.typekit.net/af/0cb543/0000000000000000000132ad/27/l?subset_id=1&fvd=n7&v=3) format("woff2"),url(https://use.typekit.net/af/0cb543/0000000000000000000132ad/27/d?subset_id=1&fvd=n7&v=3) format("woff"),url(https://use.typekit.net/af/0cb543/0000000000000000000132ad/27/a?subset_id=1&fvd=n7&v=3) format("opentype");font-weight:700;font-style:normal;}@font-face{font-family:jaf-facitweb;src:url(https://use.typekit.net/af/f64348/0000000000000000000132ae/27/l?subset_id=1&fvd=i7&v=3) format("woff2"),url(https://use.typekit.net/af/f64348/0000000000000000000132ae/27/d?subset_id=1&fvd=i7&v=3) format("woff"),url(https://use.typekit.net/af/f64348/0000000000000000000132ae/27/a?subset_id=1&fvd=i7&v=3) format("opentype");font-weight:700;font-style:italic;}
+
+body {
+  font-family: "jaf-facitweb", "Helvetica Neue", Arial, sans-serif;
+  font-size: 20px;
+}
+.basic1{
+  margin-top:100px;
+  padding-top:200px;
+}
+.logo {
+  font-size: 25px;
+  font-weight: 900;
+  color: #fff;
+  display: inline-block;
+}
+
+.buttons-wrapper {
+  float: right;
+}
+
+.global-header{
+  background-color: #f8f9f9;
+  height: 2em;
+  left: 0;
+  padding: 1em .75em;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 100;
+}
+
+.global-header.mod-trello-blue {
+    background: rgba(0, 121, 191, 0);
+    -webkit-transition: background 1s ease 0s;
+    transition: background 1s ease 0s
+}
+
+/* Colours */
+.background-blue {
+    background: #0079bf
+}
+.background-dark-bc {
+    background: #315989
+}
+.board-overlay.background-dark-bc {
+    background: rgba(37, 66, 109, 0.9)
+}
+.background-darkest-bc {
+    background: #273e5a
+}
+.background-orange-sun {
+    background: #ffab4a;
+    background: -webkit-linear-gradient(90deg, #f06e47, #ffab4a);
+    background: linear-gradient(0deg, #f06e47, #ffab4a)
+}
+.background-red {
+    background: #eb5a46
+}
+.background-light-purple {
+    background: #7b8fd1
+}
+.background-sky {
+    background: #29cce5
+}
+.background-business-blue {
+    background: #42548e
+}
+
+/* login and signup buttons */
+a.global-header-section-button {
+    background-color: #e2e4e6;
+    border-radius: .4em;
+    box-shadow: 0 2px 0 #cdd2d4;
+    color: #4d4d4d;
+    display: inline-block;
+    font-size: .8em;
+    line-height: 1.1em;
+    margin: 0 .25em;
+    padding: .7em 1.3em;
+    text-decoration: none;
+    vertical-align: top
+}
+
+a.global-header-section-button:visited {
+    color: #4d4d4d
+}
+
+a.global-header-section-button:focus,
+a.global-header-section-button:hover {
+    color: #4d4d4d;
+    background-color: #d6dadc;
+    box-shadow: 0 2px 0 #c4c9cc
+}
+
+a.global-header-section-button:active {
+    color: #4d4d4d;
+    background-color: #cdd2d4;
+    box-shadow: 0 2px 0 #b6bbbf
+}
+
+.global-header.mod-trello-blue {
+    background-color: #0079bf
+}
+.global-header.mod-business-blue {
+    background-color: #42548e
+}
+.global-header.mod-green {
+    background-color: #61bd4f
+}
+
+.global-header.mod-dark-background a.global-header-section-button {
+    background-color: rgba(0, 0, 0, 0.15);
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.3);
+    color: #fff
+}
+
+.global-header.mod-dark-background a.global-header-section-button:visited {
+    color: #fff
+}
+.global-header.mod-dark-background a.global-header-section-button:focus,
+.global-header.mod-dark-background a.global-header-section-button:hover {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.25);
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4)
+}
+.global-header.mod-dark-background a.global-header-section-button:active {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.35);
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.5)
+}
+
+
+.global-header-section-button.mod-primary {
+    background: -webkit-linear-gradient(top, #61bd4f 0, #5aac44 100%);
+    background: linear-gradient(to bottom, #61bd4f 0, #5aac44 100%);
+    box-shadow: 0 2px 0 #3f6f21;
+    color: #fff;
+    font-weight: bold
+}
+
+.global-header-section-button.mod-primary:visited {
+    color: #fff
+}
+
+.global-header-section-button.mod-primary:focus,
+.global-header-section-button.mod-primary:hover {
+    color: #fff;
+    background: -webkit-linear-gradient(top, #5aac44 0, #519839 100%);
+    background: linear-gradient(to bottom, #5aac44 0, #519839 100%);
+    box-shadow: 0 2px 0 #3f6f21
+}
+
+.global-header-section-button.mod-primary:active {
+    color: #fff;
+    background: -webkit-linear-gradient(top, #519839 0, #49852e 100%);
+    background: linear-gradient(to bottom, #519839 0, #49852e 100%);
+    box-shadow: 0 2px 0 #3f6f21
+}
+
+@media only screen and (max-width: 750px) {
+    a.global-header-section-button {
+        padding-left: 1em;
+        padding-right: 1em
+    }
+}
